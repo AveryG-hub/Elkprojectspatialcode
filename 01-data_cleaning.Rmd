@@ -1,0 +1,23 @@
+---
+title: "Data Cleaning"
+author: "Avery Greenslade"
+date: "2026-09-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Load packages
+
+```{r}
+library(tidyverse)
+```
+
+## Load data
+
+```{r}
+cam_data <- read_csv("data/ASCCA_2026_June_August_tag_report.csv")
+loc_data <- read_csv("data/ASCCA_2026_June_August_location_report.csv")
+```
+
